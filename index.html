@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="/src/index.css">
 
 
-  <title>My Portfolio</title>
+  <title>Floral Whispers</title>
 </head>
 <body>
                   <!-- Nav Bar  -->
@@ -586,5 +586,15 @@
 </footer>
 
    <script src="./src/script.js"></script>
+   <script>
+     const btn = document.getElementById('menu-btn')
+     const nav = document.getElementById('menu')
+
+      btn.addEventListener('click', () => {
+        btn.classList.toggle('open')
+        nav.classList.toggle('flex')
+        nav.classList.toggle('hidden')
+      })
+   </script>
 </body>
 </html>
